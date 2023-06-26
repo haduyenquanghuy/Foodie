@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		369EAD362A49467300FB57FA /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD352A49467300FB57FA /* View+Extensions.swift */; };
+		369EAD382A494A9400FB57FA /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD372A494A9400FB57FA /* UIScreen+Extensions.swift */; };
+		369EAD3B2A494D8200FB57FA /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD3A2A494D8200FB57FA /* OnboardingViewModel.swift */; };
+		369EAD3F2A49671D00FB57FA /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD3E2A49671D00FB57FA /* AuthView.swift */; };
 		36B6D76A2A492C1400054040 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D7692A492C1400054040 /* FoodieApp.swift */; };
 		36B6D76C2A492C1400054040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D76B2A492C1400054040 /* ContentView.swift */; };
 		36B6D76E2A492C1500054040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D76D2A492C1500054040 /* Assets.xcassets */; };
 		36B6D7712A492C1500054040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D7702A492C1500054040 /* Preview Assets.xcassets */; };
+		36B6D77B2A492CE100054040 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D77A2A492CE100054040 /* Launch Screen.storyboard */; };
+		36B6D77F2A492E8700054040 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D77E2A492E8700054040 /* OnboardingView.swift */; };
+		36B6D7822A493DC300054040 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D7812A493DC300054040 /* Color+Extensions.swift */; };
+		36B6D7862A49406400054040 /* OpenSans-Italic-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D7842A49406400054040 /* OpenSans-Italic-VariableFont_wdth,wght.ttf */; };
+		36B6D7872A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D7852A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf */; };
+		36B6D78B2A49412E00054040 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D78A2A49412E00054040 /* FontModifier.swift */; };
+		36B6D78E2A49417800054040 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D78D2A49417800054040 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		369EAD352A49467300FB57FA /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		369EAD372A494A9400FB57FA /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
+		369EAD3A2A494D8200FB57FA /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		369EAD3E2A49671D00FB57FA /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		36B6D7662A492C1400054040 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B6D7692A492C1400054040 /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
 		36B6D76B2A492C1400054040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36B6D76D2A492C1500054040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36B6D7702A492C1500054040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36B6D77A2A492CE100054040 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		36B6D77E2A492E8700054040 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		36B6D7812A493DC300054040 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		36B6D7842A49406400054040 /* OpenSans-Italic-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		36B6D7852A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		36B6D7882A49408900054040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36B6D78A2A49412E00054040 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		36B6D78D2A49417800054040 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		369EAD392A494D6A00FB57FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				369EAD3A2A494D8200FB57FA /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		369EAD3C2A4966EA00FB57FA /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				369EAD3E2A49671D00FB57FA /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		36B6D75D2A492C1400054040 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +90,17 @@
 		36B6D7682A492C1400054040 /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				36B6D78C2A49416F00054040 /* Common */,
+				36B6D7892A4940ED00054040 /* ViewBuilder */,
+				36B6D7882A49408900054040 /* Info.plist */,
+				36B6D7832A49405100054040 /* Font */,
+				36B6D7802A493DB500054040 /* Extensions */,
 				36B6D7692A492C1400054040 /* FoodieApp.swift */,
-				36B6D76B2A492C1400054040 /* ContentView.swift */,
+				369EAD392A494D6A00FB57FA /* ViewModel */,
+				36B6D77C2A492E1900054040 /* View */,
 				36B6D76D2A492C1500054040 /* Assets.xcassets */,
 				36B6D76F2A492C1500054040 /* Preview Content */,
+				36B6D77A2A492CE100054040 /* Launch Screen.storyboard */,
 			);
 			path = Foodie;
 			sourceTree = "<group>";
@@ -65,6 +111,59 @@
 				36B6D7702A492C1500054040 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36B6D77C2A492E1900054040 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36B6D76B2A492C1400054040 /* ContentView.swift */,
+				369EAD3C2A4966EA00FB57FA /* Auth */,
+				36B6D77D2A492E2400054040 /* Onboarding */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36B6D77D2A492E2400054040 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				36B6D77E2A492E8700054040 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		36B6D7802A493DB500054040 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36B6D7812A493DC300054040 /* Color+Extensions.swift */,
+				369EAD352A49467300FB57FA /* View+Extensions.swift */,
+				369EAD372A494A9400FB57FA /* UIScreen+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		36B6D7832A49405100054040 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				36B6D7842A49406400054040 /* OpenSans-Italic-VariableFont_wdth,wght.ttf */,
+				36B6D7852A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		36B6D7892A4940ED00054040 /* ViewBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				36B6D78A2A49412E00054040 /* FontModifier.swift */,
+			);
+			path = ViewBuilder;
+			sourceTree = "<group>";
+		};
+		36B6D78C2A49416F00054040 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				36B6D78D2A49417800054040 /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +224,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B6D77B2A492CE100054040 /* Launch Screen.storyboard in Resources */,
 				36B6D7712A492C1500054040 /* Preview Assets.xcassets in Resources */,
+				36B6D7862A49406400054040 /* OpenSans-Italic-VariableFont_wdth,wght.ttf in Resources */,
 				36B6D76E2A492C1500054040 /* Assets.xcassets in Resources */,
+				36B6D7872A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B6D77F2A492E8700054040 /* OnboardingView.swift in Sources */,
 				36B6D76C2A492C1400054040 /* ContentView.swift in Sources */,
+				36B6D78B2A49412E00054040 /* FontModifier.swift in Sources */,
+				369EAD362A49467300FB57FA /* View+Extensions.swift in Sources */,
+				369EAD3B2A494D8200FB57FA /* OnboardingViewModel.swift in Sources */,
 				36B6D76A2A492C1400054040 /* FoodieApp.swift in Sources */,
+				369EAD3F2A49671D00FB57FA /* AuthView.swift in Sources */,
+				369EAD382A494A9400FB57FA /* UIScreen+Extensions.swift in Sources */,
+				36B6D7822A493DC300054040 /* Color+Extensions.swift in Sources */,
+				36B6D78E2A49417800054040 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +374,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
 				DEVELOPMENT_TEAM = QZXZTUZ9QX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,15 +405,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
 				DEVELOPMENT_TEAM = QZXZTUZ9QX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
