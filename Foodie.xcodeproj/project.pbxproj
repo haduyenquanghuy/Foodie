@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36290F272A4ACA1400A7329E /* FoodieTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36290F262A4ACA1400A7329E /* FoodieTextField.swift */; };
+		363179412A4ADF23008951F0 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363179402A4ADF23008951F0 /* PrimaryButton.swift */; };
+		363179432A4AE960008951F0 /* BackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363179422A4AE960008951F0 /* BackgroundViewModifier.swift */; };
+		363179452A4AEEDA008951F0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363179442A4AEEDA008951F0 /* AuthViewModel.swift */; };
 		369EAD362A49467300FB57FA /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD352A49467300FB57FA /* View+Extensions.swift */; };
 		369EAD382A494A9400FB57FA /* UIScreen+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD372A494A9400FB57FA /* UIScreen+Extensions.swift */; };
 		369EAD3B2A494D8200FB57FA /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EAD3A2A494D8200FB57FA /* OnboardingViewModel.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36290F262A4ACA1400A7329E /* FoodieTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieTextField.swift; sourceTree = "<group>"; };
+		363179402A4ADF23008951F0 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		363179422A4AE960008951F0 /* BackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewModifier.swift; sourceTree = "<group>"; };
+		363179442A4AEEDA008951F0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		369EAD352A49467300FB57FA /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		369EAD372A494A9400FB57FA /* UIScreen+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extensions.swift"; sourceTree = "<group>"; };
 		369EAD3A2A494D8200FB57FA /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
@@ -59,10 +67,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36290F252A4AC9FB00A7329E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4A37A2A4A596800CF4D2F /* BackgroundView.swift */,
+				36290F262A4ACA1400A7329E /* FoodieTextField.swift */,
+				363179402A4ADF23008951F0 /* PrimaryButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		369EAD392A494D6A00FB57FA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				369EAD3A2A494D8200FB57FA /* OnboardingViewModel.swift */,
+				363179442A4AEEDA008951F0 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -121,10 +140,10 @@
 		36B6D77C2A492E1900054040 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				36290F252A4AC9FB00A7329E /* Common */,
 				36B6D76B2A492C1400054040 /* ContentView.swift */,
 				369EAD3C2A4966EA00FB57FA /* Auth */,
 				36B6D77D2A492E2400054040 /* Onboarding */,
-				BFB4A37A2A4A596800CF4D2F /* BackgroundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				36B6D78A2A49412E00054040 /* FontModifier.swift */,
+				363179422A4AE960008951F0 /* BackgroundViewModifier.swift */,
 			);
 			path = ViewBuilder;
 			sourceTree = "<group>";
@@ -255,13 +275,17 @@
 			files = (
 				36B6D77F2A492E8700054040 /* OnboardingView.swift in Sources */,
 				36B6D76C2A492C1400054040 /* ContentView.swift in Sources */,
+				363179432A4AE960008951F0 /* BackgroundViewModifier.swift in Sources */,
+				36290F272A4ACA1400A7329E /* FoodieTextField.swift in Sources */,
 				BFB4A37B2A4A596800CF4D2F /* BackgroundView.swift in Sources */,
+				363179412A4ADF23008951F0 /* PrimaryButton.swift in Sources */,
 				36B6D78B2A49412E00054040 /* FontModifier.swift in Sources */,
 				369EAD362A49467300FB57FA /* View+Extensions.swift in Sources */,
 				369EAD3B2A494D8200FB57FA /* OnboardingViewModel.swift in Sources */,
 				36B6D76A2A492C1400054040 /* FoodieApp.swift in Sources */,
 				369EAD3F2A49671D00FB57FA /* AuthView.swift in Sources */,
 				369EAD382A494A9400FB57FA /* UIScreen+Extensions.swift in Sources */,
+				363179452A4AEEDA008951F0 /* AuthViewModel.swift in Sources */,
 				BFB4A37E2A4A5B6200CF4D2F /* RectangleOneSideCurveShape.swift in Sources */,
 				36B6D7822A493DC300054040 /* Color+Extensions.swift in Sources */,
 				36B6D78E2A49417800054040 /* Constants.swift in Sources */,

@@ -14,7 +14,7 @@ struct RectangleOneSideCurveShape: Shape {
     func path(in rect: CGRect) -> Path {
         
         var path = Path()
-        var heightRectangle = rect.height - curveHeight
+        let heightRectangle = rect.height - curveHeight
         
         path.move(to: rect.origin)
         path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))

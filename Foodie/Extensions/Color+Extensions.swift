@@ -12,6 +12,7 @@ enum FoodieColor {
     case primary
     case textLight
     case shadow
+    case lightBackground
     
     var hex: String {
         
@@ -22,6 +23,8 @@ enum FoodieColor {
                 return "#646464"
             case .shadow:
                 return "#144E5A"
+            case .lightBackground:
+                return "#EDEDED"
         }
     }
 }

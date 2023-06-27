@@ -15,4 +15,8 @@ extension UIScreen {
     static func height(percent fractional: CGFloat) -> CGFloat {
         return screenHeight * fractional
     }
+    
+    static func weight(percent fractional: CGFloat) -> CGFloat {
+        return screenWidth * fractional
+    }
 }

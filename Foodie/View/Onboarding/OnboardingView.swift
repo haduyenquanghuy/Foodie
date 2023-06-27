@@ -33,12 +33,12 @@ struct OnboardingView: View {
                 
                 VStack (spacing: 15) {
                     Text(viewModel.currentResource.title)
-                        .applyFont(with: .heading3(size: 25))
+                        .applyFont(with: .bold(size: 25))
                         .lineLimit(2)
                         .multilineTextAlignment(.center)
                     
                     Text(viewModel.currentResource.subTitle)
-                        .applyFont(with: .body(size: 12))
+                        .applyFont(with: .regular(size: 12))
                         .lineLimit(2)
                         .multilineTextAlignment(.center)
                         .foodieForegroundColor(with: .textLight)
@@ -59,13 +59,13 @@ struct OnboardingView: View {
                         .padding(.horizontal, 59)
                         .padding(.vertical, 14)
                         .foregroundColor(.white)
-                        .applyFont(with: .heading5(size: 17))
+                        .applyFont(with: .semibold(size: 17))
                 }
                 .background(Color(hex: "#EC2578"))
                 .padding(.bottom, 16)
             }
             .navigationDestination(isPresented: $nextToAuthView) {
-                AuthView()
+                AuthView(viewModel: AuthViewModel(.login))
             }
             // END: VSTACK
         }
