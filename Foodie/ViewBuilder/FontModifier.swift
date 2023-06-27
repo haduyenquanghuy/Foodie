@@ -28,6 +28,7 @@ extension View {
 enum TitleFontType {
     
     case heading5(size: CGFloat)
+    case heading4(size: CGFloat)
     case heading3(size: CGFloat)
     case body(size: CGFloat)
     
@@ -36,6 +37,10 @@ enum TitleFontType {
         switch self {
                 
             case .heading5(let size):
+                return .custom(Constants.FONT_NAME, size: size)
+                    .weight(.semibold)
+            
+            case .heading4(size: let size):
                 return .custom(Constants.FONT_NAME, size: size)
                     .weight(.semibold)
             

@@ -12,18 +12,4 @@ struct Constants {
     static var FONT_NAME = "Open Sans"
 }
 
-enum FoodieColor {
-    
-    case primary
-    case textLight
-    
-    var hex: String {
-        
-        switch self {
-            case .primary:
-                return "#EC2578"
-            case .textLight:
-                return "#646464"
-        }
-    }
-}
+

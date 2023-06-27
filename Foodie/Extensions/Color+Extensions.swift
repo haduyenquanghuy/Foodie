@@ -7,6 +7,25 @@
 
 import SwiftUI
 
+enum FoodieColor {
+    
+    case primary
+    case textLight
+    case shadow
+    
+    var hex: String {
+        
+        switch self {
+            case .primary:
+                return "#EC2578"
+            case .textLight:
+                return "#646464"
+            case .shadow:
+                return "#144E5A"
+        }
+    }
+}
+
 extension Color {
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
@@ -31,5 +50,9 @@ extension Color {
             blue:  Double(b) / 255,
             opacity: Double(a) / 255
         )
+    }
+    
+    init(fColor: FoodieColor) {
+        self.init(hex: fColor.hex)
     }
 }

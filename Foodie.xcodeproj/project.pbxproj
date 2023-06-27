@@ -22,6 +22,8 @@
 		36B6D7872A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B6D7852A49406400054040 /* OpenSans-VariableFont_wdth,wght.ttf */; };
 		36B6D78B2A49412E00054040 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D78A2A49412E00054040 /* FontModifier.swift */; };
 		36B6D78E2A49417800054040 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B6D78D2A49417800054040 /* Constants.swift */; };
+		BFB4A37B2A4A596800CF4D2F /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4A37A2A4A596800CF4D2F /* BackgroundView.swift */; };
+		BFB4A37E2A4A5B6200CF4D2F /* RectangleOneSideCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB4A37D2A4A5B6200CF4D2F /* RectangleOneSideCurveShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		36B6D7882A49408900054040 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		36B6D78A2A49412E00054040 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
 		36B6D78D2A49417800054040 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BFB4A37A2A4A596800CF4D2F /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BFB4A37D2A4A5B6200CF4D2F /* RectangleOneSideCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleOneSideCurveShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		36B6D7682A492C1400054040 /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				BFB4A37C2A4A5B3F00CF4D2F /* Shape */,
 				36B6D78C2A49416F00054040 /* Common */,
 				36B6D7892A4940ED00054040 /* ViewBuilder */,
 				36B6D7882A49408900054040 /* Info.plist */,
@@ -119,6 +124,7 @@
 				36B6D76B2A492C1400054040 /* ContentView.swift */,
 				369EAD3C2A4966EA00FB57FA /* Auth */,
 				36B6D77D2A492E2400054040 /* Onboarding */,
+				BFB4A37A2A4A596800CF4D2F /* BackgroundView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +170,14 @@
 				36B6D78D2A49417800054040 /* Constants.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		BFB4A37C2A4A5B3F00CF4D2F /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				BFB4A37D2A4A5B6200CF4D2F /* RectangleOneSideCurveShape.swift */,
+			);
+			path = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +255,14 @@
 			files = (
 				36B6D77F2A492E8700054040 /* OnboardingView.swift in Sources */,
 				36B6D76C2A492C1400054040 /* ContentView.swift in Sources */,
+				BFB4A37B2A4A596800CF4D2F /* BackgroundView.swift in Sources */,
 				36B6D78B2A49412E00054040 /* FontModifier.swift in Sources */,
 				369EAD362A49467300FB57FA /* View+Extensions.swift in Sources */,
 				369EAD3B2A494D8200FB57FA /* OnboardingViewModel.swift in Sources */,
 				36B6D76A2A492C1400054040 /* FoodieApp.swift in Sources */,
 				369EAD3F2A49671D00FB57FA /* AuthView.swift in Sources */,
 				369EAD382A494A9400FB57FA /* UIScreen+Extensions.swift in Sources */,
+				BFB4A37E2A4A5B6200CF4D2F /* RectangleOneSideCurveShape.swift in Sources */,
 				36B6D7822A493DC300054040 /* Color+Extensions.swift in Sources */,
 				36B6D78E2A49417800054040 /* Constants.swift in Sources */,
 			);

@@ -9,7 +9,11 @@ import SwiftUI
 
 struct AuthView: View {
     var body: some View {
-        Text("Login View")
+        ZStack {
+            BackgroundView()
+            
+            
+        }
     }
 }
 
