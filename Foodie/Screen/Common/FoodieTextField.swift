@@ -20,7 +20,7 @@ struct FoodieTextField: View {
         HStack(spacing: 0) {
             image
                 .frame(width: 19, height: 19)
-                .padding(.horizontal, 15)
+                .padding(.horizontal, 14)
                 .padding(.vertical, 13)
             
             ZStack {
@@ -41,6 +41,7 @@ struct FoodieTextField: View {
                 }
             }
         }
+        .applyFont(with: .regular(size: 12))
         .onChange(of: text, perform: {
             isEmpty = $0.isEmpty
         })
